@@ -12,6 +12,6 @@ target_sources(templ
 
 target_sources(templ
   PUBLIC
-    FILE_SET modules TYPE CXX_MODULES FILES
+    FILE_SET CXX_MODULES FILES
         "src/templ.cppm"
 )
